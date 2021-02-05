@@ -1,0 +1,103 @@
+body
+{
+	display: flex;
+	justify-content: center;
+}
+.result
+{
+	width:100%;
+	height:9%;
+	color: white;
+	font-size: 30px;
+	margin: 14px;
+	font-family: "Courier New", Courier, monospace;
+	text-align: right;
+
+}
+
+.outer-box
+{
+	margin-top: 100px;
+	
+	width: 300px;
+	height: 500px;
+	border: 2px solid black;
+	background-color: black;
+	display: flex;
+	justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.operand
+{
+	width:24.5%;
+	height: 16.75%;
+	background-color: #d8d9db;
+   color: black;
+   font-size: 40px;
+   cursor: pointer;
+   border: none;
+border-radius: 0;
+
+}
+.operand_0
+{
+	width: 75%;
+	height:16.75%;
+	background-color: #d8d9db;
+   color: black;
+   font-size: 40px;
+   cursor: pointer;
+   border: none;
+border-radius: 0;
+}
+.operator
+{
+	width:24.5%;
+	height: 16.75%;
+background-color: #df974c;
+font-size: 30px;
+color: white;
+cursor: pointer;
+padding: 0px;
+border: none;
+border-radius: 0;
+}
+
+.operand:hover,.operand_0:hover,.operator-backspace:hover,.operator-clear:hover {
+  background-color: #ebebeb;
+}
+
+.operand:active,.operand_0:active,.operator-backspace:active,.operator-clear:active {
+  background-color: #bbbcbe;
+}
+	.operator:hover {
+  background-color: #dfb07e;
+}
+
+.operator:active {
+  background-color: #dd8d37;
+}
+.operator-clear
+{
+	width: 49.75%;
+	height: 16.75%;
+   background-color: #d8d9db;
+   color: black;
+   font-size: 40px;
+cursor: pointer;
+border-radius: 0;
+border:none;
+
+}
+.operator-backspace
+{
+	width:24.5%;
+	height:16.75%;
+	background-color: #d8d9db;
+   color: black;
+   font-size: 40px;
+   cursor: pointer;
+border-radius: 0;
+border:none;
+}
